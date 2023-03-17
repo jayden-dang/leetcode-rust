@@ -3,7 +3,8 @@
 #+EMAIL: eamondang@gmail.com
 
 * Day 1
-a. [[./src/easy/e1342_number_of_steps.rs][1342 - Number Of Steps]]
-b. [[./src/easy/e1480_running_sum_of_1d_array.rs][1480 - Number Of Steps]]
-c. [[./src/easy/e1672_richest_customer_wealth.rs][1672 - Number Of Steps]]
-d. [[./src/easy/e412_fizz_buzz.rs][412 - Number Of Steps]]
+a. [[./src/easy/e1480_running_sum_of_1d_array.rs][1480 - Running Sum of 1D Array]]
+b. [[./src/easy/e1672_richest_customer_wealth.rs][1672 - Richest Customer Wealth]]
+c. [[./src/easy/e412_fizz_buzz.rs][412 - FizzBuzz]]
+d. [[./src/easy/e1342_number_of_steps.rs][1342 - Number of Steps to Reduce a Number to Zero]]
+e. [[./src/easy/e876_middle_of_the_linked_list.rs][876 - Middle of The Linked List]]
