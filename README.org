@@ -1,0 +1,9 @@
+#+TITLE: Leetcode Journey - Improve Myself
+#+AUTHOR: Dang Quang Vu
+#+EMAIL: eamondang@gmail.com
+
+* Day 1
+a. [[./src/easy/e1342_number_of_steps.rs][1342 - Number Of Steps]]
+b. [[./src/easy/e1480_running_sum_of_1d_array.rs][1480 - Number Of Steps]]
+c. [[./src/easy/e1672_richest_customer_wealth.rs][1672 - Number Of Steps]]
+d. [[./src/easy/e412_fizz_buzz.rs][412 - Number Of Steps]]
