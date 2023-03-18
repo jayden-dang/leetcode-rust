@@ -37,7 +37,6 @@ mod tests {
         assert!(Solution::can_construct("aa".to_string(), "aab".to_string()));
     }
 
-
     #[test]
     #[should_panic]
     fn chars_1() {
