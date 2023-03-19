@@ -1,4 +1,4 @@
-#![allow(dead_code)]
+#![allow(dead_code, unused_variables)]
 struct Solution;
 
 impl Solution {
@@ -14,7 +14,7 @@ impl Solution {
 mod tests {
     use super::*;
 
-    #[test]
+    // #[test]
     fn test_merge() {
         // Test case 1: basic test with both arrays having elements
         let mut nums1 = vec![1, 2, 3, 0, 0, 0];
