@@ -3,13 +3,13 @@ struct Solution;
 
 impl Solution {
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
-        let mut result = 0;
-        nums.iter().for_each(|i| {
-            if i != &val {
-                result += 1;
+        let mut new_vec: Vec<i32> = Vec::new();
+        for i in nums.iter() {
+            if i == &val {
+                new_vec.push(*i);
             }
-        });
-        result
+        }
+        new_vec.len() as i32
     }
 
     pub fn remove_element_sol_2(nums: &mut Vec<i32>, val: i32) -> i32 {
