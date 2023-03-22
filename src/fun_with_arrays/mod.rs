@@ -12,3 +12,4 @@ mod sort_array_by_parity;
 mod squares_of_a_sorted_array;
 mod third_maximum_number;
 mod valid_mountain_array;
+mod find_all_numbers_disappeared;
