@@ -6,3 +6,4 @@ mod e383_ransom_note;
 mod e412_fizz_buzz;
 mod e876_middle_of_the_linked_list;
 mod e242_valid_anagram;
+mod e1928_concatenation_of_array;
