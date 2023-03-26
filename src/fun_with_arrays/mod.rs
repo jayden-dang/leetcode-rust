@@ -1,5 +1,6 @@
 mod check_if_n_and_its_double_exist;
 mod duplicate_zero;
+mod find_all_numbers_disappeared;
 mod find_numbers_with_even_number_of_digits;
 mod height_checker;
 mod max_consecutive_ones;
@@ -12,4 +13,3 @@ mod sort_array_by_parity;
 mod squares_of_a_sorted_array;
 mod third_maximum_number;
 mod valid_mountain_array;
-mod find_all_numbers_disappeared;

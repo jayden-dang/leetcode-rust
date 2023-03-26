@@ -50,7 +50,10 @@ mod tests {
     #[test]
     fn test_third_max_sol_2() {
         assert_eq!(Solution::third_max_sol_2(vec![3, 2, 1]), 1);
-        assert_eq!(Solution::third_max_sol_2(vec![1, 2, -2147483648]), -2147483648);
+        assert_eq!(
+            Solution::third_max_sol_2(vec![1, 2, -2147483648]),
+            -2147483648
+        );
         assert_eq!(Solution::third_max_sol_2(vec![1, 2, 2, 3]), 1);
         assert_eq!(Solution::third_max_sol_2(vec![1, 2]), 2);
         assert_eq!(Solution::third_max_sol_2(vec![1]), 1);
