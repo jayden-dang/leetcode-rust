@@ -9,7 +9,6 @@ impl Solution {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -17,8 +16,14 @@ mod tests {
     #[test]
     fn test_get_concatenation() {
         assert_eq!(Solution::get_concatenation(vec![]), vec![]);
-        assert_eq!(Solution::get_concatenation(vec![1, 2, 3]), vec![1, 2, 3, 1, 2, 3]);
+        assert_eq!(
+            Solution::get_concatenation(vec![1, 2, 3]),
+            vec![1, 2, 3, 1, 2, 3]
+        );
         assert_eq!(Solution::get_concatenation(vec![0]), vec![0, 0]);
-        assert_eq!(Solution::get_concatenation(vec![-1, 5, 0]), vec![-1, 5, 0, -1, 5, 0]);
+        assert_eq!(
+            Solution::get_concatenation(vec![-1, 5, 0]),
+            vec![-1, 5, 0, -1, 5, 0]
+        );
     }
 }

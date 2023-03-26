@@ -20,7 +20,7 @@ impl Solution {
             *t_freq.entry(c).or_insert(0) += 1;
         }
 
-        for (i , freq) in s_freq {
+        for (i, freq) in s_freq {
             if freq != t_freq.get(&i).cloned().unwrap_or(0) {
                 return false;
             }
@@ -35,8 +35,14 @@ mod tests {
 
     #[test]
     fn test_is_anagram() {
-        assert!(Solution::is_anagram(String::from("anagram"), String::from("nagaram")));
-        assert!(!Solution::is_anagram(String::from("rat"), String::from("car")));
+        assert!(Solution::is_anagram(
+            String::from("anagram"),
+            String::from("nagaram")
+        ));
+        assert!(!Solution::is_anagram(
+            String::from("rat"),
+            String::from("car")
+        ));
         assert!(Solution::is_anagram(String::from("a"), String::from("a")));
         assert!(Solution::is_anagram(String::from(""), String::from("")));
         assert!(!Solution::is_anagram(String::from("ab"), String::from("a")));

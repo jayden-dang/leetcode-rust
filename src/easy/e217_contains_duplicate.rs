@@ -26,7 +26,6 @@ impl Solution {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -34,7 +33,9 @@ mod tests {
     #[test]
     fn test_contains_duplicate() {
         assert!(Solution::contains_duplicate(vec![1, 2, 3, 4, 5, 1]));
-        assert!(Solution::contains_duplicate(vec![1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));
+        assert!(Solution::contains_duplicate(vec![
+            1, 1, 2, 2, 3, 3, 4, 4, 5, 5
+        ]));
         assert!(!Solution::contains_duplicate(vec![1, 2, 3, 4, 5]));
         assert!(!Solution::contains_duplicate(vec![1]));
         assert!(!Solution::contains_duplicate(vec![]));
@@ -44,7 +45,9 @@ mod tests {
     fn test_contains_duplicate_2() {
         assert!(!Solution::contains_duplicate_2(vec![1, 2, 3, 4, 5]));
         assert!(Solution::contains_duplicate_2(vec![1, 2, 3, 4, 5, 1]));
-        assert!(Solution::contains_duplicate_2(vec![1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));
+        assert!(Solution::contains_duplicate_2(vec![
+            1, 1, 2, 2, 3, 3, 4, 4, 5, 5
+        ]));
         assert!(!Solution::contains_duplicate_2(vec![1]));
         assert!(!Solution::contains_duplicate_2(vec![]));
     }
