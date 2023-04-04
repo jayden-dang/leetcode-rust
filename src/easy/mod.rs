@@ -8,3 +8,6 @@ mod e242_valid_anagram;
 mod e383_ransom_note;
 mod e412_fizz_buzz;
 mod e876_middle_of_the_linked_list;
+mod e392_is_subsequence;
+mod e1_two_sum;
+mod e14_longest_common_prefix;
